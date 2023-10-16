@@ -7,18 +7,29 @@ import matlab.engine.remote.common.ClientFactory;
 import java.util.Arrays;
 
 /**
- * @author shirukai
+ * @author wangjie
  */
 public class RMIEngineClientExamples {
     public static void main(String[] args) throws Exception {
-        Client client = ClientFactory.createRMIClient("192.168.66.212", 10991);
+        Client client = ClientFactory.createRMIClient("127.0.0.1", 10991);
         MatlabEngineService service = client.get(MatlabEngineService.class);
 
         // 调用matlab函数
-        double[] x = {2.0, 4.0, 6.0};
-        double[] res = service.feval("sqrt", (Object) x);
-        for (double e : res) {
-            System.out.println(e);
+        if (true) {
+            double[] x = {2.0, 4.0, 6.0};
+            double[] res = service.feval("sqrt", (Object) x);
+            for (double e : res) {
+                System.out.println(e);
+            }
+        }
+
+        // 调用自定义函数
+        if (true) {
+            double[] x = new double[]{1.0, 2.0, 3.0, 1.0};
+            double[] res = service.feval("mfft", (Object) x, 4.0);
+            for (double e : res) {
+                System.out.println(e);
+            }
         }
 
         // 调用matlab脚本

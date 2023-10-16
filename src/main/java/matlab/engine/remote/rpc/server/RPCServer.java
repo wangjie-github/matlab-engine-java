@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 /**
  * RPC服务端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RPCServer<T> extends Server<T> {
     private static final Logger LOG = LoggerFactory.getLogger(Server.class);

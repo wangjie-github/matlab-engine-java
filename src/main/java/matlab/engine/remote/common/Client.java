@@ -3,7 +3,7 @@ package matlab.engine.remote.common;
 /**
  * 定义客户端创建参数，及创建方法
  *
- * @author shirukai
+ * @author wangjie
  */
 public abstract class Client {
     protected final String host;

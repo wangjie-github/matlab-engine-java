@@ -6,7 +6,7 @@ import java.rmi.RemoteException;
 /**
  * 定义Matlab引擎的接口，其中继承Remote用来兼容RMI方式调用
  *
- * @author shirukai
+ * @author wangjie
  */
 public interface MatlabEngineService extends Remote {
     /**

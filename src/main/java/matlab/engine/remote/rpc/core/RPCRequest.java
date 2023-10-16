@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * RPC通信的请求类型
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RPCRequest implements Serializable {
     private static final long serialVersionUID = 4932007273709224551L;

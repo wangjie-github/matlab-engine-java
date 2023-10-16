@@ -13,7 +13,7 @@ import java.rmi.server.UnicastRemoteObject;
  * Matlab引擎服务接口的具体实现
  * 参考：{@link MatlabEngine}
  *
- * @author shirukai
+ * @author wangjie
  */
 public class MatlabEngineServiceImpl extends UnicastRemoteObject implements MatlabEngineService, Serializable {
     private final MatlabEngine engine;

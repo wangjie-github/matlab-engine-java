@@ -18,7 +18,7 @@
             <artifactId>matlab.engine</artifactId>
             <version>2020R</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/lib/engine.jar</systemPath>
+            <systemPath>${basedir}/lib/engine.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

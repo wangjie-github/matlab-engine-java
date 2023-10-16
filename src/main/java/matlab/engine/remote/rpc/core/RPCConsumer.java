@@ -10,7 +10,7 @@ import java.net.Socket;
 /**
  * 用来创建PRC客户端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RPCConsumer {
 

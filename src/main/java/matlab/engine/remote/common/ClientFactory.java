@@ -6,7 +6,7 @@ import matlab.engine.remote.rpc.client.RPCClient;
 /**
  * 用来创建指定类型的客户端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class ClientFactory {
     /**

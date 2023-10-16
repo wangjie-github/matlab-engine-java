@@ -5,11 +5,11 @@ import matlab.engine.remote.common.Client;
 import matlab.engine.remote.common.ClientFactory;
 
 /**
- * @author shirukai
+ * @author wangjie
  */
 public class RPCEngineClientExamples {
     public static void main(String[] args)throws Exception {
-        Client client = ClientFactory.createRPCClient("192.168.66.212", 10992);
+        Client client = ClientFactory.createRPCClient("127.0.0.1", 10992);
         MatlabEngineService service = client.get(MatlabEngineService.class);
 
         double[] x = {2.0, 4.0, 6.0};

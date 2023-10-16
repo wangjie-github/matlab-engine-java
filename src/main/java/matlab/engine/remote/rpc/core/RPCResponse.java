@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * PRC响应类型
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RPCResponse implements Serializable {
     public static String SUCCEED = "succeed";

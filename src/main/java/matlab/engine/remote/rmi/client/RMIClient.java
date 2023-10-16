@@ -8,7 +8,7 @@ import java.rmi.registry.Registry;
 /**
  * RMI客户端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RMIClient extends Client {
     public RMIClient(String host, Integer port) {

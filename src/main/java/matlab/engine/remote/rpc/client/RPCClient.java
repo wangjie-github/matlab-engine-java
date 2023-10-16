@@ -6,7 +6,7 @@ import matlab.engine.remote.rpc.core.RPCConsumer;
 /**
  * PRC客户端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RPCClient extends Client {
     public RPCClient(String host, Integer port) {

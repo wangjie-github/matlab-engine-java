@@ -8,7 +8,7 @@ import java.rmi.Remote;
 /**
  * 用来创建指定类型的服务端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class ServerFactory {
     /**

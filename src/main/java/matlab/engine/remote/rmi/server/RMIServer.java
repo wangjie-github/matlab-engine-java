@@ -11,7 +11,7 @@ import java.rmi.registry.Registry;
 /**
  * RMI服务端
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RMIServer<T extends Remote> extends Server<T> {
     private static final Logger LOG = LoggerFactory.getLogger(Server.class);

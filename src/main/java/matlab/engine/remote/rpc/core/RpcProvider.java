@@ -13,7 +13,7 @@ import java.net.Socket;
 /**
  * 用来创建RPC服务
  *
- * @author shirukai
+ * @author wangjie
  */
 public class RpcProvider {
     private static final Logger LOG = LoggerFactory.getLogger(RpcProvider.class);

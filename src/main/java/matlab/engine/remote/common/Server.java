@@ -3,7 +3,7 @@ package matlab.engine.remote.common;
 /**
  * 定义服务端创建参数，及启动方法
  *
- * @author shirukai
+ * @author wangjie
  */
 public abstract class Server<T> {
     protected final Integer port;
